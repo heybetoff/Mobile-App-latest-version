@@ -122,6 +122,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
+    <!-- Confirm Password Field -->
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/confirmPasswordEditText"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:hint="Confirm your password"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:paddingStart="32dp"
+        android:background="#D3D3D3"
+        app:layout_constraintTop_toBottomOf="@id/passwordEditText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
     <ImageView
         android:layout_width="46dp"
         android:layout_height="28dp"
@@ -135,7 +149,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="By checking this box you agree to our Terms and Conditions."
-        app:layout_constraintTop_toBottomOf="@id/passwordEditText"
+        app:layout_constraintTop_toBottomOf="@id/confirmPasswordEditText"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginStart="24dp"
@@ -146,7 +160,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_margin="24dp"
-        android:backgroundTint="@color/teal_700"
+        android:backgroundTint="@color/dark_brown"
         android:text="Next >"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
